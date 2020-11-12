@@ -362,7 +362,17 @@ button {
   padding-left: 40px; }
 
 .det-wrap {
-  padding-bottom: 40px;
+  padding-bottom: 45px;
+  font-family: 'Commissioner' , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0; }
+
+.det-wrapr {
+  padding-bottom: 20px;
   font-family: 'Commissioner' , sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -381,3 +391,30 @@ button {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
   margin: 0; }
+
+.DEta {
+  margin-bottom: 100px; }
+
+.wrap--a {
+  font-family: 'Commissioner' , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.9); }
+
+.wrap-D {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8); }
+
+.detu-wrap {
+  padding-bottom: 60px; }
+  .detu-wrap .col-4 {
+    padding: 0 !important; }
+  .detu-wrap .col-8 {
+    padding: 0 !important; }
