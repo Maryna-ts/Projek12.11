@@ -27,10 +27,9 @@ header {
   height: 15px;
   border-radius: 0px;
   padding-right: 15px; }
-
-.namber .egg {
-  padding-right: 0px;
-  padding-left: 25px; }
+  .namber img .egg {
+    padding-right: 0px;
+    padding-left: 25px; }
 
 .TEH {
   padding-bottom: 22px; }
@@ -75,22 +74,23 @@ header {
     line-height: 25px;
     color: rgba(0, 0, 0, 0.8);
     padding-bottom: 50px; }
-  .ovwrap button {
-    font-family: 'Commissioner', sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 30px;
-    width: 200px;
-    height: 45px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #FFFFFF;
-    cursor: pointer;
-    background: #DEC377;
-    border-radius: 2px;
-    margin: 0 auto;
-    border: none; }
+
+button {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  cursor: pointer;
+  background: #DEC377;
+  border-radius: 2px;
+  margin: 0 auto;
+  border: none; }
 
 .carousel-control-prev {
   left: 405px !important;
@@ -270,3 +270,114 @@ header {
     letter-spacing: 0.02em;
     color: rgba(0, 0, 0, 0.75);
     width: 230px; }
+
+.busines {
+  width: 1170px;
+  margin: 0 auto;
+  background: #FFFFFF; }
+
+.Bus {
+  margin-top: 295px;
+  padding: 0;
+  margin-bottom: 100px; }
+
+.BU {
+  margin-right: -25px;
+  margin-left: 55px !important;
+  margin-top: 50px; }
+
+.busS {
+  font-family: 'Commissioner', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 30px; }
+
+.busS-tex {
+  font-family: 'Lato' , sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 470px;
+  padding-bottom: 45px;
+  margin-bottom: 0; }
+
+.BUr {
+  padding-left: 55px !important; }
+
+.found {
+  margin-left: 375px;
+  margin-bottom: 35px;
+  font-family: 'Commissioner' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.9); }
+
+.grid-line {
+  padding-left: 375px;
+  padding-right: 375px; }
+
+.gr-blo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 30px;
+  grid-auto-flow: row;
+  padding-bottom: 40px; }
+
+.detail {
+  width: 370px;
+  height: 140px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between; }
+
+.deta {
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 45px; }
+
+.de-im {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.det {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 40px; }
+
+.det-wrap {
+  padding-bottom: 40px;
+  font-family: 'Commissioner' , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0; }
+
+.det-wr {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0; }
