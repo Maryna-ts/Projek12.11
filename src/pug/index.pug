@@ -96,11 +96,11 @@ html(lang="en")
                   p Гарантируем минимальные сроки регистрации под ключ 
                   button ПОДРОБНЕЕ      
 
-          a.carousel-control-prev(href='#carouselExampleInterval', role='button', data-slide='prev')
+          a.carousel-control-prev.za(href='#carouselExampleInterval', role='button', data-slide='prev')
             span.carousel-control-prev-icon(aria-hidden='true')
             span.sr-only Previous
 
-          a.carousel-control-next(href='#carouselExampleInterval', role='button', data-slide='next')
+          a.carousel-control-next.pos(href='#carouselExampleInterval', role='button', data-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
             span.sr-only Next
 
@@ -152,63 +152,63 @@ html(lang="en")
             div(class="detail")
               div(class="det")
                 h5(class="det-wrap") Взыскание долгов
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/dept-money.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrap") Реорганизация бизнеса
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Vector-2.svg", alt="картинка")
             
             div(class="detail")
               div(class="det")
                 h5(class="det-wrap") Продажа бизнеса
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Group-3.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrapr") Юридические консультации
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Union-4.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrapr") Ликвидация организаций
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Group-5.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrapr") Разработка <br> договоров
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Group-6.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrapr") Регистрация бизнеса
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/stamp-7.svg", alt="картинка")
 
             div(class="detail")
               div(class="det")
                 h5(class="det-wrapr") Юридический аутсорсинг
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Group -8.svg", alt="картинка")
 
             div(class="detail") 
               div(class="det")
                 h5(class="det-wrapr") Аттестация в строительстве
-                p(class="det-wr") ПОДРОБНЕЕ
+                a(class="det-wr" href="#") ПОДРОБНЕЕ
               div(class="deta")
                 img(class="de-im" src="images/Dollar.svg", alt="картинка")       
           button(class="DEta") Все услуги
@@ -221,20 +221,124 @@ html(lang="en")
             p(class="wrap-D") Основной принцип нашей работы – максимальная открытость и доверительные отношения с каждым клиентом, с тем чтобы от начала и до конца совместной работы, не возникало никакого недопонимания. Мы ставим целью не только привлечение новых клиентов, но и поддержание длительных партнерских отношений с клиентами, которые уже воспользовались нашими услугами.<br> <br> Быстрота анализа и профессиональных действий наших юристов обеспечивают успешное решение, казалось бы, неразрешимых вопросов. Богатые знания и солидный опыт позволяют нам оказывать комплексную правовую помощь в ситуациях любой сложности.
 
         section(class="imagKar")
-          #carouselExampleControls.carousel.slide(data-ride='carousel')
-            .carousel-inner
-              .carousel-item.active
-                img.d-block.w-100(src='...' alt='...')
-              .carousel-item
-                img.d-block.w-100(src='...' alt='...')
-              .carousel-item
-                img.d-block.w-100(src='...' alt='...')
-            a.carousel-control-prev(href='#carouselExampleControls' role='button' data-slide='prev')
-              span.carousel-control-prev-icon(aria-hidden='true')
-              span.sr-only Previous
-            a.carousel-control-next(href='#carouselExampleControls' role='button' data-slide='next')
-              span.carousel-control-next-icon(aria-hidden='true')
-              span.sr-only Next
+          .container
+            #carouselExampleControls.carousel.slide(data-ride='carousel')
+              .carousel-inner
+                .carousel-item.active
+                  img.d-block.w-100(src='images/Rectangle 107 (1).png' alt='картинка')
+                .carousel-item
+                  img.d-block.w-100(src='images/Rectangle 107 (2).png' alt='картинка')
+                .carousel-item
+                  img.d-block.w-100(src='images/Rectangle 108.png' alt='картинка')
+                .carousel-item
+                  img.d-block.w-100(src='images/Rectangle 109.png' alt='картинка')  
+              a.carousel-control-prev.zx(href='#carouselExampleControls' role='button' data-slide='prev')
+                span.carousel-control-prev-icon.zleft(aria-hidden='true')
+                span.sr-only Previous
+              a.carousel-control-next.zy(href='#carouselExampleControls' role='button' data-slide='next')
+                span.carousel-control-next-icon.zright(aria-hidden='true')
+                span.sr-only Next
+
+        section(class="Fon")  
+          .container(class="FonF")
+            h2(class="otz") Отзывы наших партнеров
+
+            #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+              ol.carousel-indicators
+                li.active(data-target='#carouselExampleCaptions' data-slide-to='0')
+                li(data-target='#carouselExampleCaptions' data-slide-to='1')
+                li(data-target='#carouselExampleCaptions' data-slide-to='2')
+              .carousel-inner
+                .carousel-item.active
+                  div(class="Blot")
+                    div(class="bloc bloc1")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") директор
+                              h3(class="derwwra") С.В. Косачев
+                              p(class="derw-wrapper") Уважаемая Светлана Александровна! Наша компания выражает благодарность и признательность обществу с ограниченной ответственностью «МК-Правовые технологии». Благодаря слаженной работе и высокой квалификации Ваших сотрудников и специалистов компания «ВиваСтрой» получила качественные юридические услуги по взысканию денежных средств с должника. Профессионализм работников ООО «МК-Правовые технологии», а также желание работать со сложными и нестандартными задачами является залогом высокоэффективного и успешного взаимодействия наших компаний. Рекомендуем...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                    div(class="bloc bloc2")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") глава представительства
+                              h3(class="derwwra") Валерий Мяснянкин
+                              p(class="derw-wrapper") Представительство корпорации «VMSN GROUP, INC.» (США) в Республике Беларусь на протяжении нескольких лет сотрудничает с ООО «МК-Правовые технологии» в рамках сопровождения деятельности по юридическим вопросам, в том числе по вопросам ведения кадрового делопроизводства – абонентское обслуживание. Хотелось бы отметить работу специалистов ООО «МК-Правовые технологии» хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им по плечу. Работая с профессионалами МК-Правовые технологии, всегда можно рассчитывать...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                  button(class="Blotbut") Все отзывы             
+                .carousel-item
+                  div(class="Blot")
+                    div(class="bloc bloc1")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") директор
+                              h3(class="derwwra") С.В. Косачев
+                              p(class="derw-wrapper") Уважаемая Светлана Александровна! Наша компания выражает благодарность и признательность обществу с ограниченной ответственностью «МК-Правовые технологии». Благодаря слаженной работе и высокой квалификации Ваших сотрудников и специалистов компания «ВиваСтрой» получила качественные юридические услуги по взысканию денежных средств с должника. Профессионализм работников ООО «МК-Правовые технологии», а также желание работать со сложными и нестандартными задачами является залогом высокоэффективного и успешного взаимодействия наших компаний. Рекомендуем...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                    div(class="bloc bloc2")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") глава представительства
+                              h3(class="derwwra") Валерий Мяснянкин
+                              p(class="derw-wrapper") Представительство корпорации «VMSN GROUP, INC.» (США) в Республике Беларусь на протяжении нескольких лет сотрудничает с ООО «МК-Правовые технологии» в рамках сопровождения деятельности по юридическим вопросам, в том числе по вопросам ведения кадрового делопроизводства – абонентское обслуживание. Хотелось бы отметить работу специалистов ООО «МК-Правовые технологии» хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им по плечу. Работая с профессионалами МК-Правовые технологии, всегда можно рассчитывать...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                  button(class="Blotbut") Все отзывы          
+                .carousel-item
+                  div(class="Blot")
+                    div(class="bloc bloc1")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") директор
+                              h3(class="derwwra") С.В. Косачев
+                              p(class="derw-wrapper") Уважаемая Светлана Александровна! Наша компания выражает благодарность и признательность обществу с ограниченной ответственностью «МК-Правовые технологии». Благодаря слаженной работе и высокой квалификации Ваших сотрудников и специалистов компания «ВиваСтрой» получила качественные юридические услуги по взысканию денежных средств с должника. Профессионализм работников ООО «МК-Правовые технологии», а также желание работать со сложными и нестандартными задачами является залогом высокоэффективного и успешного взаимодействия наших компаний. Рекомендуем...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                    div(class="bloc bloc2")
+                      .container
+                        .row(class="der")
+                          .col-12
+                            img(src="images/fot.png", alt="картинка")
+                            div(class="Dwrap")
+                              p(class="derwwr") глава представительства
+                              h3(class="derwwra") Валерий Мяснянкин
+                              p(class="derw-wrapper") Представительство корпорации «VMSN GROUP, INC.» (США) в Республике Беларусь на протяжении нескольких лет сотрудничает с ООО «МК-Правовые технологии» в рамках сопровождения деятельности по юридическим вопросам, в том числе по вопросам ведения кадрового делопроизводства – абонентское обслуживание. Хотелось бы отметить работу специалистов ООО «МК-Правовые технологии» хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им по плечу. Работая с профессионалами МК-Правовые технологии, всегда можно рассчитывать...
+                              a(href="#") ЧИТАТЬ ДАЛЕЕ
+                  button(class="Blotbut") Все отзывы          
+              a.carousel-control-prev.BRT(href='#carouselExampleCaptions' role='button' data-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true')
+                span.sr-only Previous
+              a.carousel-control-next.BRTL(href='#carouselExampleCaptions' role='button' data-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true')
+                span.sr-only Next
+            .container
+              .row(class="dr")
+                .col-7
+                  p Оказываем юридические услуги юридическим лицам и индивидуальным предпринимателям. Специализируемся в области хозяйственного права, работаем на всей территории Республики Беларусь, а также за ее пределами, с бизнесом любого масштаба.
+                button(class="proj") НАШИ ПАРТНЕРЫ
+              div(class="logo")
+                div(class="logo")
+                  div(class="logo")
+                    div(class="logo")
+
+
+         
+
+
+
 
     script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js' integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' crossorigin='anonymous')
     script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')

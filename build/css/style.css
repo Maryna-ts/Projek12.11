@@ -9,6 +9,9 @@ header, main, footer {
 header {
   background: #FFFFFF; }
 
+.container {
+  padding: 0 !important; }
+
 .row {
   padding-top: 16px; }
 
@@ -54,11 +57,11 @@ header {
   position: relative; }
 
 .ovwrap {
-  margin: 0 auto;
   width: 1170px;
   position: absolute;
-  top: 12em;
-  left: 7em; }
+  top: 9em;
+  left: 23.5em;
+  bottom: 38em; }
   .ovwrap h1 {
     font-family: 'Commissioner', sans-serif;
     font-style: normal;
@@ -93,14 +96,14 @@ button {
   margin: 0 auto;
   border: none; }
 
-.carousel-control-prev {
-  left: 8em !important;
-  top: 25em !important;
+.za {
+  left: 23em !important;
+  top: 20em !important;
   width: 25px !important; }
 
-.carousel-control-next {
-  left: 10em !important;
-  top: 25em !important;
+.pos {
+  left: 25em !important;
+  top: 20em !important;
   width: 25px !important; }
 
 .carousel-control-prev-icon {
@@ -280,7 +283,9 @@ button {
   margin-top: 100px;
   padding: 0;
   margin-bottom: 100px;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  margin-right: 0px !important;
+  margin-left: 0px !important; }
 
 .BU {
   margin-right: -25px;
@@ -418,6 +423,300 @@ button {
   .detu-wrap .col-8 {
     padding: 0 !important; }
 
+.zx {
+  left: -125px !important; }
+
+.zy {
+  right: -125px !important; }
+
+.zright, .zleft {
+  width: 30px !important;
+  height: 30px  !important; }
+
+.imagKar {
+  margin-bottom: 100px; }
+
+.Fon {
+  background: #FFFFFF;
+  margin-top: -200px;
+  padding-bottom: 45px; }
+  .Fon .otz {
+    padding-top: 200px;
+    padding-bottom: 25px;
+    font-family: 'Commissioner' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9); }
+
+.FonF {
+  padding-bottom: 95px !important; }
+
+.Blot {
+  display: flex;
+  justify-content: space-between; }
+
+.bloc {
+  width: 570px;
+  height: 585px;
+  display: flex; }
+
+.bloc1 {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08); }
+
+.bloc2 {
+  margin-right: 5px;
+  margin-left: 1px;
+  margin-top: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08); }
+
+.der {
+  padding: 0 !important; }
+
+.Dwrap {
+  padding: 20px 50px 25px 50px; }
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #DEC377 !important;
+  border-radius: 50% !important; }
+
+.Blotbut {
+  margin-top: 30px; }
+
+.BRT {
+  top: 640px !important;
+  left: 935px !important; }
+
+.BRTL {
+  top: 640px !important; }
+
+.proj {
+  margin-left: 100px; }
+
+.dr {
+  padding-top: 89px; }
+
 .container {
-  max-width: 1170px;
+  max-width: 1170px !important;
   margin: 0 auto; }
+
+@media (max-width: 1900px) {
+  .ovwrap {
+    left: 22em; } }
+
+@media (max-width: 1860px) {
+  .ovwrap {
+    left: 20em; } }
+
+@media (max-width: 1760px) {
+  .ovwrap {
+    left: 18em; } }
+
+@media (max-width: 1720px) {
+  .ovwrap {
+    left: 16em;
+    top: 6em; }
+  .za {
+    left: 16em !important; }
+  .pos {
+    left: 18em !important; } }
+
+@media (max-width: 1670px) {
+  .ovwrap {
+    left: 15em; }
+  .za {
+    left: 15em !important; }
+  .pos {
+    left: 17em !important; } }
+
+@media (max-width: 1630px) {
+  .ovwrap {
+    left: 14em; }
+  .za {
+    left: 14em !important; }
+  .pos {
+    left: 16em !important; } }
+
+@media (max-width: 1600px) {
+  .ovwrap {
+    left: 13em; }
+  .za {
+    left: 13em !important; }
+  .pos {
+    left: 15em !important; } }
+
+@media (max-width: 1560px) {
+  .ovwrap {
+    left: 12em; }
+  .za {
+    left: 12em !important; }
+  .pos {
+    left: 14em !important; } }
+
+@media (max-width: 1540px) {
+  .ovwrap {
+    left: 11em; }
+    .ovwrap p {
+      padding-bottom: 20px; }
+  .za {
+    left: 11em !important;
+    top: 17em !important; }
+  .pos {
+    left: 13em !important;
+    top: 17em !important; } }
+
+@media (max-width: 1500px) {
+  .ovwrap {
+    top: 5em;
+    left: 10em; }
+  .za {
+    left: 10em !important; }
+  .pos {
+    left: 12em !important; } }
+
+@media (max-width: 1460px) {
+  .ovwrap {
+    left: 9em;
+    top: 3em; }
+    .ovwrap h1 {
+      width: 500px;
+      font-size: 30px;
+      line-height: 40px; }
+  .za {
+    left: 9em !important;
+    top: 11em !important; }
+  .pos {
+    left: 11em !important;
+    top: 11em !important; } }
+
+@media (max-width: 1440px) {
+  .ovwrap {
+    left: 8em; }
+  .za {
+    left: 8em !important; }
+  .pos {
+    left: 10em !important; } }
+
+@media (max-width: 1420px) {
+  .ovwrap {
+    left: 7em; }
+  .za {
+    left: 7em !important; }
+  .pos {
+    left: 9em !important; } }
+
+@media (max-width: 1400px) {
+  .ovwrap {
+    left: 6em; }
+  .za {
+    left: 6em !important; }
+  .pos {
+    left: 8em !important; } }
+
+@media (max-width: 1380px) {
+  .ovwrap {
+    left: 5em; }
+  .za {
+    left: 5em !important; }
+  .pos {
+    left: 7em !important; } }
+
+@media (max-width: 1370px) {
+  .ovwrap {
+    top: 4em; } }
+
+@media (max-width: 1360px) {
+  .ovwrap {
+    top: 5em;
+    left: 6em; }
+  .za {
+    left: 6em !important;
+    top: 13em !important; }
+  .pos {
+    left: 8em !important;
+    top: 13em !important; }
+    .pos h1 {
+      width: 300px;
+      font-size: 20px;
+      line-height: 30px; }
+    .pos p {
+      padding-bottom: 15px; } }
+
+@media (max-width: 1340px) {
+  .ovwrap {
+    top: 3em; }
+  .za {
+    top: 14em !important; }
+  .pos {
+    top: 14em !important; } }
+
+@media (max-width: 1320px) {
+  .ovwrap {
+    left: 5em; }
+  .za {
+    left: 5em !important;
+    top: 12em !important; }
+  .pos {
+    left: 7em !important;
+    top: 12em !important; } }
+
+@media (max-width: 1300px) {
+  .ovwrap {
+    left: 4em; }
+  .za {
+    left: 4em !important; }
+  .pos {
+    left: 6em !important; } }
+
+@media (max-width: 1280px) {
+  .ovwrap {
+    left: 3em; }
+  .za {
+    left: 3em !important;
+    top: 11em !important; }
+  .pos {
+    left: 5em !important;
+    top: 11em !important; } }
+
+@media (max-width: 1220px) {
+  .ovwrap {
+    top: 0.8em;
+    left: 2em; }
+  .za {
+    top: 10em !important;
+    left: 2em !important; }
+  .pos {
+    top: 10em !important;
+    left: 4em !important; } }
+
+@media (max-width: 1120px) {
+  .ovwrap {
+    top: 0.5em; } }
+
+@media (max-width: 1000px) {
+  .ovwrap {
+    top: 0.4em;
+    left: 2em; }
+    .ovwrap h1 {
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: bold;
+      padding-bottom: 5px; }
+    .ovwrap p {
+      padding-bottom: 5px; }
+  .za {
+    top: 5em !important;
+    left: 2em !important; }
+  .pos {
+    top: 5em !important;
+    left: 4em !important; } }
