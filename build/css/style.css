@@ -439,7 +439,7 @@ button {
 .Fon {
   background: #FFFFFF;
   margin-top: -200px;
-  padding-bottom: 45px; }
+  padding-bottom: 100px; }
   .Fon .otz {
     padding-top: 200px;
     padding-bottom: 25px;
@@ -450,9 +450,6 @@ button {
     line-height: 40px;
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9); }
-
-.FonF {
-  padding-bottom: 95px !important; }
 
 .Blot {
   display: flex;
@@ -484,11 +481,45 @@ button {
 .Dwrap {
   padding: 20px 50px 25px 50px; }
 
+.derwwr {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.derwwra {
+  font-family: 'Commissioner' , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #DEC377; }
+
+.derw-wrapper {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.8); }
+
 .carousel-indicators li {
   width: 10px !important;
   height: 10px !important;
   background-color: #DEC377 !important;
   border-radius: 50% !important; }
+
+.okaz {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8); }
 
 .Blotbut {
   margin-top: 30px; }
@@ -501,10 +532,60 @@ button {
   top: 640px !important; }
 
 .proj {
-  margin-left: 100px; }
+  margin-left: 100px;
+  color: #DEC377;
+  background: #FFFFFF;
+  border: 2px solid #DEC377; }
 
 .dr {
   padding-top: 89px; }
+
+.logot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin: 0 outo; }
+
+.Interes {
+  padding-top: 80px; }
+
+.GRinter {
+  padding: 2px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 30px;
+  grid-template-rows: repeat(2, 100%); }
+
+.GRsimple {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); }
+
+.GRprava {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); }
+
+.GRresult {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); }
+
+.GRprava {
+  position: relative; }
+
+.GRprava-gyt {
+  width: 70px;
+  height: 70px;
+  background: none;
+  border: 35px solid transparent;
+  border-top: 35px solid #DEC377;
+  border-right: 35px solid  #DEC377;
+  top: 0;
+  right: 0;
+  position: absolute; }
+
+.ob {
+  padding: 40px 50px 55px 50px; }
 
 .container {
   max-width: 1170px !important;
