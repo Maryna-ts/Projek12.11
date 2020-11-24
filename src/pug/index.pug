@@ -6,7 +6,6 @@ html(lang="en")
     link(rel="stylesheet", href="css/style.css")
     link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous')
     link(rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
-    link(href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap' rel='stylesheet')
     link(href='https://fonts.googleapis.com/css2?family=Commissioner:wght@100;400;500&family=Lato:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap' rel='stylesheet')
     title Main Page
 
@@ -15,14 +14,14 @@ html(lang="en")
     header
       .container
         .row
-          .col-5
-            span Язык
+          .col-md-5.col-sm-12
+            span(class="Sans") Язык
               a(class="nav-link1 dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") русский
                 div(class="dropdown-menu")
                   a(class="dropdown-item" href="#") английский
-          .col-2
+          .col-md-2.col-sm-12
             i.fas.fa-eye
-          .col-5
+          .col-md-5.col-sm-12
             div(class="namber")
               span +375 (44) 755-01-01
               img(src="images/A1.svg", alt="A1")
@@ -34,11 +33,11 @@ html(lang="en")
       div(class="MKtehno")
         .container
           .row(class="TEH")
-            .col-4
+            .col-md-4.col-sm-12
               div(class="nav-tehno")
                 div(class="tehno")
                   img(src="images/Group.svg", alt="message")
-            .col-8 
+            .col-md-8.col-sm-12 
               nav(class="navigation")
                 a(class="navigation-item" href="#") ГЛАВНАЯ
                 a(class="navigation-item" href="#") О НАС
@@ -48,6 +47,34 @@ html(lang="en")
                 a(class="navigation-item" href="#") КОНТАКТЫ
                 div(class="ikon")
                   i.fal.fa-search
+            
+                            // Navbar
+            nav.navbar.navbar-light.light-blue.lighten-4
+              // Navbar brand
+              a.navbar-brand(href='#') МЕНЮ
+              // Collapse button
+              button.navbar-toggler.toggler-example(type='button' data-toggle='collapse' data-target='#navbarSupportedContent1' aria-controls='navbarSupportedContent1' aria-expanded='false' aria-label='Toggle navigation')
+                span.dark-blue-text
+                  i.fas.fa-bars.fa-1x
+              // Collapsible content
+              #navbarSupportedContent1.collapse.navbar-collapse
+                // Links
+                ul.navbar-nav.mr-auto
+                  li.nav-item.active
+                    a.nav-link(href='#')
+                      | ГЛАВНАЯ
+                      span.sr-only (current)
+                  li.nav-item
+                    a.nav-link(href='#') О НАС
+                  li.nav-item
+                    a.nav-link(href='#') УСЛУГИ
+                  li.nav-item
+                    a.nav-link(href='#') ТАРИФЫ
+                  li.nav-item
+                    a.nav-link(href='#') ИНФОЦЕНТР
+                  li.nav-item
+                    a.nav-link(href='#') КОНТАКТЫ  
+                     
 
     main
       section(class="Debit")
@@ -56,7 +83,7 @@ html(lang="en")
             .carousel-item.active(data-interval='1000')
               .slide-content
                 .img-wrap
-                  img.d-block(src='images/Rectangle 1.png',width='100%', height='100%', alt='фото')
+                  img.d-block(src='images/Rectangle 1.png' class="img-fluid" ,width='100%', height='100%', alt='фото')
                 .ovwrap
                   h1 Взыскание дебиторской задолженности
                   p Индивидуальный подход и нацеленность на достижение результата
@@ -105,34 +132,35 @@ html(lang="en")
             span.sr-only Next
 
         .section(class="CBuss")
-          div(class="cardi")
-            div(class="card-card1")
-              div(class="cardf-ol")
-                div(class="card-img")
-                  img(src="images/Иконка-карточка.svg", alt="иконка")
-              div(class="card-wrap")
-                p Надежная защита 
+          .container
+            div(class="cardi")
+              div(class="card-card1")
+                div(class="cardf-ol")
+                  div(class="card-img")
+                    img(src="images/Иконка-карточка.svg", alt="иконка")
+                div(class="card-wrap")
+                  p Надежная защита 
 
-            div(class="card-card2")
-              div(class="cardf-olg")
-                div(class="card-imge")
-                  img(src="images/Иконка-карточка (1).svg", alt="иконка")
-              div(class="card-wrape")
-                p Безупречная репутация
+              div(class="card-card2")
+                div(class="cardf-olg")
+                  div(class="card-imge")
+                    img(src="images/Иконка-карточка (1).svg", alt="иконка")
+                div(class="card-wrape")
+                  p Безупречная репутация
 
-            div(class="card-card3")
-              div(class="cardf-olT")
-                div(class="card-imgT")
-                  img(src="images/Иконка-карточка (2).svg", alt="иконка")
-              div(class="card-wrapT")
-                p Надежная защита 
+              div(class="card-card3")
+                div(class="cardf-olT")
+                  div(class="card-imgT")
+                    img(src="images/Иконка-карточка (2).svg", alt="иконка")
+                div(class="card-wrapT")
+                  p Надежная защита 
 
-            div(class="card-card4")    
-              div(class="cardZ-olZ")
-                div(class="cardZ-imgZ")
-                  img(src="images/Иконка-карточка (4).svg", alt="иконка")
-              div(class="card-wrapZ")
-                p Абсолютная конфиденциальность
+              div(class="card-card4")    
+                div(class="cardZ-olZ")
+                  div(class="cardZ-imgZ")
+                    img(src="images/Иконка-карточка (4).svg", alt="иконка")
+                div(class="card-wrapZ")
+                  p Абсолютная конфиденциальность
 
           div(class="busines")
             .container(class="bussin")
@@ -141,7 +169,7 @@ html(lang="en")
                   h1(class="busS") Юридическое сопровождение бизнеса от «МК-Правовые технологии»
                   p(class="busS-tex") Главный принцип нашей работы - качество. Постоянно следовать ему помогает сплоченная команда талантливых и энергичных сотрудников, способных сообща заниматься сложными проектами, никогда не допуская сбоев в работе. <br> <br> Мы обеспечиваем максимальный уровень профессионального обслуживания, который можно ожидать от крупной юридической фирмы.<br> <br> Нашу фирму отличают яркая индивидуальность и следование модели эффективного юридического обслуживания. Благодаря профессиональной гибкости мы находим творческие решения как обычных вопросов, так и неординарных проблем, возникающих у наших клиентов. <br> <br> Все наши рекомендации основаны на глубоких академических знаниях и опыте практического применения в хозяйственном праве.
                 .col-md-5.BUr
-                  img(class="busS-im" src="images/Rectangle 141.png", alt="картинка")
+                  img(class="busS-im" src="images/Rectangle 141.png" class="img-fluid, width=500px", alt="картинка")
 
       .container
         h1(class="found") Основные направления деятельности

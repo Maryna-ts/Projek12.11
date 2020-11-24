@@ -16,6 +16,16 @@ header
 .row
   padding-top: 16px
 
+.Sans
+  font-family: 'Source Sans Pro' , sans-serif
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 20px
+  color: rgba(0, 0, 0, 0.8)
+
+.navbar.navbar-light.light-blue.lighten-4
+  display: none
 .nav-link1
   display: inline !important
   padding: 5px
@@ -30,8 +40,13 @@ header
   span
     padding-right: 12px
     font-family: 'Commissioner' sans-serif
-    font-weight: 400px
+    font-style: normal
+    font-weight: normal
     font-size: 14px
+    line-height: 20px
+    letter-spacing: 0.03em
+    text-transform: uppercase
+    color: rgba(0, 0, 0, 0.5)
 
   img 
     height: 15px
@@ -54,8 +69,11 @@ header
 .navigation-item
   margin-left: 40px
   font-family: 'Commissioner', sans-serif
-  font-weight: 500px
+  font-weight: 500
   font-size: 14px
+  line-height: 20px
+  letter-spacing: 0.03em
+  text-transform: uppercase
   color: rgba(0, 0, 0, 0.75)
   
 
@@ -81,12 +99,13 @@ header
     font-size: 40px
     line-height: 50px
     width: 500px
+    letter-spacing: 0.01em
     padding-bottom: 20px
 
   p 
     font-family: 'Lato', sans-serif
     font-style: normal
-    font-weight: 300px
+    font-weight: 300
     font-size: 15px
     line-height: 25px  
     color: rgba(0, 0, 0, 0.8)
@@ -129,8 +148,6 @@ button
 .cardi
   display: flex
   justify-content: space-between
-  margin: 0 auto
-  width: 1170px
   z-index: 99999
   margin-top: -68px
 
@@ -348,9 +365,6 @@ button
   line-height: 40px
   letter-spacing: 0.03em
   color: rgba(0, 0, 0, 0.9)
-
-.grid-line
-   
 
 .gr-blo
   display: grid
@@ -1478,6 +1492,13 @@ input
     left: 5em !important   
     top: 11em !important  
 
+  .cardi
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    align-content: center
+    
+
           
 @media (max-width: 1220px) 
   .ovwrap 
@@ -1494,6 +1515,13 @@ input
 @media (max-width: 1120px)   
   .ovwrap 
     top: 0.5em 
+
+  .navbar.navbar-light.light-blue.lighten-4
+    display: block
+    margin: 0 auto
+
+  .navigation
+    display: none 
 
 @media (max-width: 1000px) 
   .ovwrap 
@@ -1512,3 +1540,7 @@ input
   .pos
     top: 5em !important 
     left: 4em !important         
+
+  .col-md-5
+    justify-content: center
+    display: flex
