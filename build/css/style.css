@@ -1452,7 +1452,11 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-content: center; } }
+    align-content: center;
+    margin-top: -3px; }
+  .card-card1, .card-card2, .card-card3 {
+    margin-bottom: 10px;
+    margin-right: 0; } }
 
 @media (max-width: 1220px) {
   .ovwrap {
@@ -1493,4 +1497,62 @@ input {
     left: 4em !important; }
   .col-md-5 {
     justify-content: center;
-    display: flex; } }
+    display: flex; }
+  .col-md-2 {
+    justify-content: center;
+    display: flex;
+    margin-top: 5px; }
+  .col-md-4 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .MKtehno {
+    margin-top: 5px; }
+  .za {
+    top: 11em !important;
+    left: 2em !important; }
+  .pos {
+    top: 11em !important;
+    left: 4em !important; }
+  .ovwrap p {
+    width: 350px; } }
+
+@media (max-width: 700px) {
+  .za {
+    top: -6em !important;
+    left: 20em !important; }
+  .pos {
+    top: -6em !important;
+    left: 22em !important; }
+  .ovwrap p {
+    width: 250px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    line-height: 13px; }
+  .ovwrap h1 {
+    width: 200px;
+    font-size: 12px; }
+  .ovwrap button {
+    width: 115px;
+    height: 26px; } }
+
+@media (max-width: 400px) {
+  .namber span {
+    font-size: 11px; }
+  .za {
+    top: -6em !important;
+    left: 12em !important; }
+  .pos {
+    top: -6em !important;
+    left: 13.5em !important; }
+  .ovwrap {
+    width: 200px;
+    height: 150px; }
+    .ovwrap p {
+      width: 200px; }
+    .ovwrap .cardf-ol {
+      top: 45px;
+      left: 70px;
+      width: 60px;
+      height: 60px; }
+    .ovwrap .card-wrap {
+      padding-top: 100px; } }
