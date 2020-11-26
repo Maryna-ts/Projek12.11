@@ -1469,6 +1469,10 @@ input {
     top: 10em !important;
     left: 4em !important; } }
 
+@media (max-width: 1140px) {
+  .BUr img {
+    height: 100%; } }
+
 @media (max-width: 1120px) {
   .ovwrap {
     top: 0.5em; }
@@ -1477,6 +1481,17 @@ input {
     margin: 0 auto; }
   .navigation {
     display: none; } }
+
+@media (max-width: 1010px) {
+  .Bus {
+    margin-top: 10px;
+    display: inline !important; }
+  .BU {
+    margin: 0 auto !important; }
+  .busS {
+    padding-top: 10px; }
+  .BUr {
+    margin: 0 auto !important; } }
 
 @media (max-width: 1000px) {
   .ovwrap {
@@ -1512,9 +1527,7 @@ input {
     left: 2em !important; }
   .pos {
     top: 11em !important;
-    left: 4em !important; }
-  .ovwrap p {
-    width: 350px; } }
+    left: 4em !important; } }
 
 @media (max-width: 700px) {
   .za {
