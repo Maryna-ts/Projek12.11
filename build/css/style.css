@@ -563,8 +563,7 @@ button {
 .logot {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
-  margin: 0 outo; }
+  padding-top: 40px; }
 
 .Interes {
   padding-top: 80px;
@@ -1456,7 +1455,13 @@ input {
     margin-top: -3px; }
   .card-card1, .card-card2, .card-card3 {
     margin-bottom: 10px;
-    margin-right: 0; } }
+    margin-right: 0; }
+  .zy {
+    bottom: 0px !important;
+    right: 0px !important; }
+  .zx {
+    bottom: 0px !important;
+    left: 0px !important; } }
 
 @media (max-width: 1220px) {
   .ovwrap {
@@ -1468,6 +1473,31 @@ input {
   .pos {
     top: 10em !important;
     left: 4em !important; } }
+
+@media (max-width: 1200px) {
+  .Blot {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .BRT {
+    top: 1010px !important;
+    left: 128px !important; }
+  .BRTL {
+    top: 1010px !important;
+    right: 128px !important; }
+  .Blouf {
+    margin: 0 outo;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px; }
+  .dr {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .okaz {
+    text-align: center; }
+  .proj {
+    margin-left: 0; } }
 
 @media (max-width: 1140px) {
   .BUr img {
@@ -1489,9 +1519,33 @@ input {
   .BU {
     margin: 0 auto !important; }
   .busS {
-    padding-top: 10px; }
+    padding-top: 10px;
+    text-align: center;
+    width: 430px; }
+  .busS-im {
+    width: 113%; }
+  .found {
+    text-align: center;
+    margin-top: 10px; }
+  .detail {
+    margin-bottom: 10px; }
+  .gr-blo {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .Dtru {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px; }
+  .wrap-D {
+    text-align: center;
+    padding: 10px; }
   .BUr {
-    margin: 0 auto !important; } }
+    margin: 0 auto !important;
+    padding-left: 0 !important; }
+  .otz {
+    text-align: center; } }
 
 @media (max-width: 1000px) {
   .ovwrap {
@@ -1527,7 +1581,26 @@ input {
     left: 2em !important; }
   .pos {
     top: 11em !important;
-    left: 4em !important; } }
+    left: 4em !important; }
+  .logot {
+    flex-direction: column;
+    align-items: center; }
+  .prakt {
+    height: 100%;
+    width: 350px; }
+  .scroll {
+    text-align: center; }
+  .re {
+    padding-right: 30px; }
+  .GRresult {
+    flex-direction: column; }
+  .DDS {
+    flex-direction: column !important;
+    align-items: center; }
+  .SErvscrol {
+    margin-bottom: 10px; }
+  .regin {
+    padding-right: 10px; } }
 
 @media (max-width: 700px) {
   .za {
