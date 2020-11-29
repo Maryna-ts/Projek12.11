@@ -653,6 +653,8 @@ button {
 
 .imgKart {
   margin-bottom: 60px; }
+  .imgKart img {
+    width: 100%; }
 
 .scroll h2 {
   font-family: 'Commissioner' , sans-serif;
@@ -1660,6 +1662,10 @@ label {
     display: none; } }
 
 @media (max-width: 1010px) {
+  .detu-wrap {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
   .Bus {
     margin-top: 10px;
     display: inline !important; }
@@ -1759,6 +1765,8 @@ label {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+  .dok p {
+    text-align: center; }
   .formik {
     margin-top: 25px; }
   .stim {
@@ -1785,6 +1793,35 @@ label {
     margin-left: -76px;
     margin-top: -6px; } }
 
+@media (max-width: 950px) {
+  .SErvscroll {
+    width: 100%; }
+  .reginn {
+    padding-left: 320px; }
+  .regi {
+    padding-bottom: 10px; }
+  .reginy {
+    padding-left: 320px; }
+  .regin15 {
+    padding-left: 320px; }
+  .regii {
+    padding-bottom: 3px; }
+  .SErvscr {
+    width: 100%; }
+  .SErvscrt {
+    width: 100%; } }
+
+@media (max-width: 880px) {
+  .regin {
+    padding-right: 150px; } }
+
+@media (max-width: 830px) {
+  .Yr-wrap p {
+    width: 500px;
+    margin-bottom: 94px; }
+  .reginy {
+    padding-left: 170px; } }
+
 @media (max-width: 780px) {
   .prakt p {
     width: 550px; }
@@ -1792,9 +1829,6 @@ label {
     margin-left: 0; }
   .SErvscry {
     margin-left: 0; }
-  .DDS .col-md-5.col-sm-12 {
-    align-items: end !important;
-    justify-content: end !important; }
   .texno2 {
     width: 515px; }
   .texno3 {
@@ -1865,7 +1899,40 @@ label {
   .ybr {
     display: block; }
   .texno3 {
-    display: none; } }
+    display: none; }
+  .frame {
+    width: 100%; }
+  form {
+    width: 450px !important;
+    margin-left: 50px; }
+  .kons {
+    width: 360px !important; }
+  .Daaavs {
+    text-align: center; }
+  .prakt p {
+    width: 450px; } }
+
+@media (max-width: 520px) {
+  .Yr-wrap p {
+    width: 350px;
+    margin-bottom: 170px; }
+  .prakt p {
+    width: 300px;
+    padding-bottom: 180px; } }
+
+@media (max-width: 490px) {
+  .busS-tex {
+    width: 350px;
+    text-align: center;
+    margin-left: 35px; }
+  .DEta {
+    margin-bottom: 10px; } }
+
+@media (max-width: 470px) {
+  .GRinter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 @media (max-width: 400px) {
   .namber span {
