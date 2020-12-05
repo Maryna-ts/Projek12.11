@@ -1168,7 +1168,7 @@ label {
   margin-bottom: 100px; }
 
 .stik {
-  width: 1920px;
+  width: 100%;
   margin-top: 0 !important;
   margin-bottom: 49px  !important; }
 
@@ -1783,6 +1783,8 @@ label {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px; }
+  .sti {
+    margin-bottom: 20px; }
   .texno {
     margin-left: 25px; }
   .all {
@@ -1791,7 +1793,9 @@ label {
     margin-right: 10px; }
   .str {
     margin-left: -76px;
-    margin-top: -6px; } }
+    margin-top: -6px; }
+  .DEta {
+    margin-bottom: 5px; } }
 
 @media (max-width: 950px) {
   .SErvscroll {
@@ -1924,7 +1928,8 @@ label {
     align-items: center; }
   .all {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-left: 0px; }
   .ybr {
     display: block; }
   .texno3 {
@@ -1965,7 +1970,30 @@ label {
 @media (max-width: 550px) {
   .Yr12 p {
     line-height: 20px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  .za {
+    top: 2em !important;
+    left: 11em !important; }
+  .pos {
+    top: 2em !important;
+    left: 12.5em !important; }
+  .cooperate {
+    width: 400px; }
+    .cooperate h2 {
+      text-align: center;
+      padding-bottom: 8px; }
+  .coop-wrap p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 285px; }
+  .Yrist {
+    margin-bottom: 10px; }
+  .dok p {
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 18px; }
+  .formik {
+    margin-top: 40px; } }
 
 @media (max-width: 530px) {
   .busS-tex {
@@ -1986,15 +2014,22 @@ label {
     width: 300px;
     padding-bottom: 180px; }
   .Blot {
-    width: 100%; } }
+    width: 100%; }
+  form {
+    margin: 0 auto; } }
 
 @media (max-width: 490px) {
   .busS-tex {
-    width: 350px;
+    width: 100%;
     text-align: center;
     margin-left: 0; }
   .DEta {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .ovwrap h1 {
+    line-height: 13px;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 3px; } }
 
 @media (max-width: 470px) {
   .GRinter {
@@ -2026,12 +2061,6 @@ label {
 @media (max-width: 400px) {
   .namber span {
     font-size: 11px; }
-  .za {
-    top: -6em !important;
-    left: 12em !important; }
-  .pos {
-    top: -6em !important;
-    left: 13.5em !important; }
   .ovwrap {
     width: 200px;
     height: 150px; }
@@ -2049,8 +2078,20 @@ label {
 
 @media (max-width: 380px) {
   .ovwrap h1 {
-    line-height: 13px;
-    padding-bottom: 0px; } }
+    line-height: 10px;
+    font-size: 8px;
+    margin-bottom: 0;
+    padding-bottom: 0px; }
+  .za {
+    top: 2em !important;
+    left: 9em !important; }
+  .pos {
+    top: 2em !important;
+    left: 10.5em !important; }
+  .namber span {
+    padding-right: 5px; }
+  .namber img {
+    padding-right: 5px; } }
 
 @media (max-width: 360px) {
   .Fon .otz {
@@ -2060,3 +2101,11 @@ label {
     width: 250px; }
   .Daaav {
     font-size: 26px; } }
+
+@media (max-width: 350px) {
+  .za {
+    top: 4.5em !important;
+    left: 5em !important; }
+  .pos {
+    top: 4.5em !important;
+    left: 6.5em !important; } }
