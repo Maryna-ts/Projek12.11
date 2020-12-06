@@ -1661,6 +1661,12 @@ label {
   .navigation {
     display: none; } }
 
+@media (max-width: 1070px) {
+  .namber span {
+    padding-right: 7px; }
+  .namber img {
+    padding-right: 7px; } }
+
 @media (max-width: 1010px) {
   .detu-wrap {
     flex-direction: column;
@@ -1796,7 +1802,9 @@ label {
     margin-left: -76px;
     margin-top: -6px; }
   .DEta {
-    margin-bottom: 5px; } }
+    margin-bottom: 5px; }
+  .namber span {
+    font-size: 10px; } }
 
 @media (max-width: 950px) {
   .disi {
