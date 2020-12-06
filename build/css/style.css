@@ -2177,10 +2177,12 @@ label {
 
 @media (max-width: 350px) {
   .za {
-    top: 4.5em !important;
+    top: 5.4em !important;
     left: 5em !important; }
   .pos {
-    top: 4.5em !important;
+    top: 5.4em !important;
     left: 6.5em !important; }
+  .ovwrap p {
+    padding-bottom: 2px; }
   .Yr-wrap p {
     margin-bottom: 210px; } }
