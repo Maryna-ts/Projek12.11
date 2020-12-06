@@ -1721,7 +1721,8 @@ label {
     width: 100%; }
   .col-md-5 {
     justify-content: center;
-    display: flex; }
+    display: flex;
+    padding-right: 0px !important; }
   .col-md-2 {
     justify-content: center;
     display: flex;
@@ -1798,6 +1799,8 @@ label {
     margin-bottom: 5px; } }
 
 @media (max-width: 950px) {
+  .disi {
+    padding-right: 15px !important; }
   .SErvscroll {
     width: 100%; }
   .reginn {
@@ -1866,7 +1869,12 @@ label {
     align-items: center !important;
     width: 80% !important; }
   .serw {
-    width: 80% !important; } }
+    width: 80% !important; }
+  .Daaavs {
+    width: 460px;
+    text-align: center; }
+  .all4 {
+    padding-right: 10px; } }
 
 @media (max-width: 760px) {
   .texno3 {
@@ -1935,7 +1943,8 @@ label {
   .texno3 {
     display: none; }
   .frame {
-    width: 100%; }
+    width: 100%;
+    margin: 0 auto; }
   form {
     width: 450px !important;
     margin-left: 50px; }
@@ -1944,7 +1953,9 @@ label {
   .Daaavs {
     text-align: center; }
   .prakt p {
-    width: 450px; } }
+    width: 450px; }
+  .ders img {
+    width: 100%; } }
 
 @media (max-width: 600px) {
   .Blot {
@@ -2004,7 +2015,10 @@ label {
   .detail {
     width: 280px; }
   .det-wrap {
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+  .wrap--a {
+    font-size: 25px;
+    margin-bottom: 0px; } }
 
 @media (max-width: 520px) {
   .Yr-wrap p {
